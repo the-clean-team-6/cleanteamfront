@@ -6,8 +6,8 @@ export default function HomePage() {
             <h1>Välkommen till Clean Team</h1>
             <p>Här kan du skapa ett konto eller logga in.</p>
             <nav aria-label="Account actions">
-                <Link to="/login">Log in</Link>
-                <Link to="/register">Register</Link>
+                <Link to="/login">Logga in</Link>
+                <Link to="/register">Registera dig</Link>
             </nav>
         </main>
     );
