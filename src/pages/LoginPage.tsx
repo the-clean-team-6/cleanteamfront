@@ -1,6 +1,9 @@
+import LoginForm from "../components/LoginForm";
+
 export default function LoginPage() {
-    // if (isAuthenticated) {
-    //     return <Navigate to="/dashboard" />
-    // }
-    return <div>LoginPage</div>;
+    return (
+        <div>
+            <LoginForm />
+        </div>
+    );
 }
