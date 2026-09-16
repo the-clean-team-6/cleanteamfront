@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import {useState} from 'react';
+import {useNavigate} from 'react-router-dom';
 
 export default function LoginForm() {
     const navigate = useNavigate();
@@ -48,7 +48,12 @@ export default function LoginForm() {
             />
 
             {error && <p role="alert">{error}</p>}
-            <button type="submit">Logga in</button>
+            <div className="button-group">
+                <button type="submit">Logga in</button>
+                <button type="button" onClick={() => navigate('/forgot-password')}>
+                    Glömt lösenord?
+                </button>
+            </div>
         </form>
     );
 }
