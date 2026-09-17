@@ -30,7 +30,7 @@ export default function RegisterForm() {
     return (
         <form onSubmit={handleSubmit}>
             <div>
-                <label htmlFor="firstname">First Name:</label>
+                <label htmlFor="firstname">Förnamn:</label>
                 <input
                     type="text"
                     id="firstname"
@@ -43,7 +43,7 @@ export default function RegisterForm() {
                 />
             </div>
             <div>
-                <label htmlFor="lastname">Last Name:</label>
+                <label htmlFor="lastname">Efternamn:</label>
                 <input
                     type="text"
                     id="lastname"
@@ -68,7 +68,7 @@ export default function RegisterForm() {
                 />
             </div>
             <div>
-                <label htmlFor="password">Password:</label>
+                <label htmlFor="password">Lösenord:</label>
                 <input
                     type="password"
                     id="password"
@@ -81,7 +81,7 @@ export default function RegisterForm() {
                     required
                 />
             </div>
-            <button type="submit">Register</button>
+            <button type="submit">Registrera</button>
         </form>
     )
 }  
